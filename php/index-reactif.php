@@ -11,6 +11,9 @@
       }
       setInterval(updateTime, 1000);
       window.onload = updateTime;
+
+      window.maVariable = 'Hello World';
+      console.log("ma variable : ", window.maVariable);
     </script>
 </head>
 <body>
@@ -24,6 +27,8 @@
     echo date('H:i:s');
     ?>
 </span>
+
+<a href="page2.php">Page 2</a>
 
 
 </body>
