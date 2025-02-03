@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2em;
+    width: 400px;
+}
+#current-time {
+    font-weight: bold;
+    font-size: 5em;
+}
