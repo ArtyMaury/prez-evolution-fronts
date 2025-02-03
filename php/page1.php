@@ -2,12 +2,10 @@
 <?php
 include 'head.php';
 ?>
-<body>
-    <script>
-      window.maVariable = 'Hello World';
-      console.log("ma variable : ", window.maVariable);
-    </script>
 
+<body>
+
+    <div class="logos"><img src="php.png" alt="PHP Logo" width="200" /></div>
     <h1>Page 1</h1>
 
     <a href="page2.php">Page 2</a>

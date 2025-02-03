@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import React from 'react'
 import {fetchTime} from "./components/fetchTime.js";
+// http://localhost:4173/
 
 function App() {
   const [time, setTime] = useState("chargement...")
@@ -12,10 +13,12 @@ function App() {
 
   return (
     <>
-      <div className="logos"><img src="/react.png" alt="React Logo" width="200"/></div>
+      <div className="logos"><img src="/react.png" alt="React Logo" width="150"/></div>
       <h1>Heure Courante</h1>
 
-      <span id="current-time">{time}</span>
+      <span id="current-time">
+        {time}
+      </span>
     </>
   )
 

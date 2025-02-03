@@ -10,6 +10,7 @@ function fetchTimeFromAPI() {
 
 $current_time = fetchTimeFromAPI();
 ?>
+
 <body>
     <script>
       function updateTime() {
@@ -27,6 +28,7 @@ $current_time = fetchTimeFromAPI();
 
     <span id="current-time">
         <?php echo $current_time; ?>
+
     </span>
 
 </body>

@@ -10,12 +10,14 @@ function fetchTimeFromAPI() {
 
 $current_time = fetchTimeFromAPI();
 ?>
+
 <body>
     <div class="logos"><img src="php.png" alt="PHP Logo" width="200" /></div>
     <h1>Heure Courante</h1>
 
     <span id="current-time">
         <?php echo $current_time; ?>
+
     </span>
 
 </body>

@@ -3,7 +3,9 @@ import Clock from "../../../components/clock";
 import {fetchTime} from "../../../components/fetchTime";
 import React from "react";
 
-export const revalidate = 10
+// http://localhost:3000/nav/page1
+
+export const revalidate = 1
 
 export async function Page1() {
 
@@ -11,6 +13,7 @@ export async function Page1() {
 
   return (
     <>
+      <div className="logos"><img src="/next.svg" alt="Next Logo" width="150"/></div>
       <h1>Page 1</h1>
 
       <Clock initialTime={time} />

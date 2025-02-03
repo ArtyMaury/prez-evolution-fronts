@@ -7,9 +7,11 @@ body {
     align-items: center;
 }
 .logos {
+    position: absolute;
+    left: 10px;
+    top: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     font-size: 2em;
     width: 400px;
 }
