@@ -13,7 +13,9 @@ export default async function Home() {
       <div className="logos"><img src="/next.svg" alt="Next Logo" width="150"/></div>
       <h1>Heure Courante</h1>
 
-      <span id="current-time">{time}</span>
+      <span id="current-time">
+        {time}
+      </span>
     </>
   );
 }

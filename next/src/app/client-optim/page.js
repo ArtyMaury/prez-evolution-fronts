@@ -3,7 +3,7 @@ import Clock from "../../components/clock";
 import {fetchTime} from "../../components/fetchTime";
 // http://localhost:3000/client-optim
 
-export const revalidate = 1
+export const revalidate = 10
 
 export default async function Home() {
   const time = await fetchTime()
